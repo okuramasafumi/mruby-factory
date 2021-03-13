@@ -1,0 +1,7 @@
+name: mruby-factory
+description: Factory class
+author: OKURA Masafumi
+website: https://github.com/okuramasafumi/mruby-factory
+protocol: git
+repository: https://github.com/okuramasafumi/mruby-factory.git
+license: MIT
