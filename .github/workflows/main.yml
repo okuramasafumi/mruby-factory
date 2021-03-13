@@ -1,0 +1,20 @@
+name: CI
+
+on: [push,pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      MRUBY_VERSION: 2.1.2
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up mruby
+      run: |
+        git clone https://github.com/mruby/mruby.git
+        cd mruby
+        git checkout 2.1.2
+    - name: Run test
+      run: |
+        rake test
+
