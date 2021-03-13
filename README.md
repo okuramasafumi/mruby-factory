@@ -1,4 +1,6 @@
-# mruby-factory   [![Build Status](https://travis-ci.org/okuramasafumi/mruby-factory.svg?branch=master)](https://travis-ci.org/okuramasafumi/mruby-factory)
+[![CI](https://github.com/okuramasafumi/mruby-factory/actions/workflows/main.yml/badge.svg)](https://github.com/okuramasafumi/mruby-factory/actions/workflows/main.yml)
+
+# mruby-factory
 
 Factory implementation for mruby.
 
