@@ -52,6 +52,7 @@ end
 
 assert('nested factory') do
   user_with_full_name = Factory.create :user_with_full_name
+  assert_equal 'User', user_with_full_name.class.name
   assert_equal 'John Doe', user_with_full_name.full_name
 end
 
